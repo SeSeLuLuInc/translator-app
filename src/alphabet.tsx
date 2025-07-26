@@ -62,17 +62,31 @@ function App () {
   return (
     <div className='flex flex-col items-center h-full'>
       <button
-        onClick={async () => window.location.pathname = "/"}
-        className={`absolute top-0 right-0 ${platform() == 'android' || platform() == 'ios' ? 'm-10' : 'm-2'} z-50`}
+        onClick={async () => (window.location.pathname = '/')}
+        className={`absolute top-0 right-0 ${
+          platform() == 'android' || platform() == 'ios' ? 'm-10' : 'm-2'
+        } z-50`}
         style={{
-          display: ["windows", "macos", "linux"].includes(platform()) ? 'none' : 'block'
+          display: ['windows', 'macos', 'linux'].includes(platform())
+            ? 'none'
+            : 'block'
         }}
       >
         Back
       </button>
-      <p className={`text-center text-3xl ${platform() == 'android' || platform() == 'ios' ? 'mt-20' : 'm-10'} mb-6`}>SeSe LuLu Alphabet</p>
+      <p
+        className={`text-center text-3xl ${
+          platform() == 'android' || platform() == 'ios' ? 'mt-20' : 'm-10'
+        } mb-6`}
+      >
+        SeSe LuLu Alphabet
+      </p>
       <p>Format is "English: SeSe LuLu"</p>
-      <div className={`${platform() == 'android' || platform() == 'ios' ? 'mb-14' : 'mb-6'} mt-2 select-text text-center`}>
+      <div
+        className={`${
+          platform() == 'android' || platform() == 'ios' ? 'mb-14' : 'mb-6'
+        } mt-2 select-text text-center`}
+      >
         {Object.entries(map).map(([key, value]) => (
           <p key={key}>
             {key}: {value}
