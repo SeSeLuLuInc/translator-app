@@ -1,6 +1,6 @@
 [package]
 name = "seselulu-translator"
-version = "1.0.0"
+version = "1.0.1"
 description = "A silly language translator for a silly language"
 authors = ["Lncvrt"]
 edition = "2024"
