@@ -1,12 +1,12 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 body {
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   @apply bg-[#0f0f0f] text-white select-none;
 }
 
 textarea {
-  @apply bg-[#161616] hover:bg-[#1c1c1c] focus:bg-[#242424] resize-none rounded-lg border focus:border-2 border-[#323232] hover:border-[#3a3a3a] focus:border-[#484848] w-[60vw] max-sm:w-[90vw] h-[30vh] m-4 p-[8px] focus:p-[7px] transition-colors focus:outline-none;
+  @apply bg-[#161616] hover:bg-[#1c1c1c] focus:bg-[#242424] resize-none rounded-lg border focus:border-2 border-[#323232] hover:border-[#3a3a3a] focus:border-[#484848] w-[60vw] max-sm:w-[90vw] h-[30vh] m-4 p-2 focus:p-[7px] transition-colors focus:outline-none;
 }
 
 button {

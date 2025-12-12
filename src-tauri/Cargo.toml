@@ -1,6 +1,6 @@
 [package]
 name = "seselulu-translator"
-version = "1.0.1"
+version = "1.0.2"
 description = "A silly language translator for a silly language"
 authors = ["Lncvrt"]
 edition = "2024"
@@ -10,14 +10,14 @@ name = "seselulu_lib"
 crate-type = ["staticlib", "cdylib", "rlib"]
 
 [build-dependencies]
-tauri-build = { version = "2.3.1", features = [] }
+tauri-build = { version = "2.5.3", features = [] }
 
 [dependencies]
-tauri = { version = "2.7.0", features = [] }
-serde = { version = "1.0.219", features = ["derive"] }
-serde_json = "1.0.141"
-tauri-plugin-os = "2.3.0"
+tauri = { version = "2.9.5", features = [] }
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.145"
+tauri-plugin-os = "2.3.2"
 
 [target.'cfg(not(any(target_os = "android", target_os = "ios")))'.dependencies]
-tauri-plugin-single-instance = "2.3.2"
+tauri-plugin-single-instance = "2.3.6"
 

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E3351DF2501D53B4717EFC85"
-               BuildableName = "SeSe LuLu Translator.app"
+               BuildableName = "SeSe LuLu.app"
                BlueprintName = "seselulu-translator_iOS"
                ReferencedContainer = "container:seselulu-translator.xcodeproj">
             </BuildableReference>
@@ -31,7 +31,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E3351DF2501D53B4717EFC85"
-            BuildableName = "SeSe LuLu Translator.app"
+            BuildableName = "SeSe LuLu.app"
             BlueprintName = "seselulu-translator_iOS"
             ReferencedContainer = "container:seselulu-translator.xcodeproj">
          </BuildableReference>
@@ -66,7 +66,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E3351DF2501D53B4717EFC85"
-            BuildableName = "SeSe LuLu Translator.app"
+            BuildableName = "SeSe LuLu.app"
             BlueprintName = "seselulu-translator_iOS"
             ReferencedContainer = "container:seselulu-translator.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E3351DF2501D53B4717EFC85"
-            BuildableName = "SeSe LuLu Translator.app"
+            BuildableName = "SeSe LuLu.app"
             BlueprintName = "seselulu-translator_iOS"
             ReferencedContainer = "container:seselulu-translator.xcodeproj">
          </BuildableReference>
